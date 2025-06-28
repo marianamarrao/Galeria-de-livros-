@@ -1,0 +1,101 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap);
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+    background: linear-gradient(45deg, #FDE2EE,  #FDF3F9);
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #FFFFFF;
+    top: 0;
+    opacity: 90%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+#titulo{
+    margin-left: 60px;
+}
+
+.navbar ul{
+    display: flex;
+    gap: 50px;
+    margin-right: 60px;
+}
+
+.navbar a:hover{
+    color: #ffb3d6;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
+}
+
+.main{
+    margin-left: 60px;
+    padding-top:100px ;
+}
+
+.titulo{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.verMais{
+    color: #4facfe;
+}
+
+.livros {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.livro {
+    background-color: #FFFFFF;
+    padding: 15px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 10px;
+    width: 200px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0);
+    color: black;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.livro:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.livro img {
+    margin-top: 20px;
+    width: 160px;
+    height: 230px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.footer{
+    background-color: #f1c4d9;
+    
+}
+
+
+
+
